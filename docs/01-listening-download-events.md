@@ -24,6 +24,7 @@ ControllerListener controllerListener = new BaseControllerListener<ImageInfo>() 
         String id,
         @Nullable ImageInfo imageInfo,
         @Nullable Animatable anim) {
+        //id为Controller的id
       if (imageInfo == null) {
         return;
       }
